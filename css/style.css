@@ -27,6 +27,15 @@ img {
 	height: auto;
 }
 
+.visually-hidden {
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
 /*------------INHERIT */
 
 body {
@@ -87,7 +96,7 @@ body {
 }
 
 .header {
-	padding: 24px 0;
+	/* padding: 24px 0; */
 	border-bottom: 1px solid #e7e9fc;
 }
 
@@ -99,9 +108,11 @@ body {
 
 .header-navigation {
 	display: flex;
+	align-items: center;
 }
 .header-logo {
 	margin-right: 76px;
+	padding: 24px 0;
 }
 
 .header-logo .logo-part {
@@ -111,6 +122,7 @@ body {
 .header-menu {
 	display: flex;
 	gap: 40px;
+	padding: 24px 0;
 }
 
 .header-menu-link {
@@ -128,7 +140,9 @@ body {
 
 .header-contact-list {
 	display: flex;
+	align-items: center;
 	gap: 40px;
+	padding: 24px 0;
 }
 
 .header-contact-link {
@@ -147,7 +161,7 @@ body {
 
 .hero {
 	background: #2e2f42;
-	padding-bottom: 188px;
+	padding: 188px 0;
 }
 
 .hero-title {
@@ -176,6 +190,9 @@ body {
 	gap: 10px;
 	display: block;
 	margin: 0 auto;
+	min-width: 169px;
+	height: 56px;
+	border: none;
 }
 
 .hero-button:hover,
@@ -184,14 +201,6 @@ body {
 }
 
 /*--------------------------ADVANTAGES */
-.visually-hidden {
-	clip-path: inset(50%);
-	height: 1px;
-	overflow: hidden;
-	position: absolute;
-	white-space: nowrap;
-	width: 1px;
-}
 
 .advantages-list {
 	display: flex;
@@ -236,18 +245,17 @@ body {
 	border-radius: 0 0 4px 4px;
 }
 
-.team-pic {
-	margin-bottom: 32px;
+.team-item-name {
+	padding: 32px 0;
 }
 
 .team-title {
 	text-align: center;
+	margin-bottom: 8px;
 }
 
 .team-text {
 	text-align: center;
-	margin-top: 8px;
-	margin-bottom: 32px;
 }
 
 /*-----------------PORTFOLIO */
@@ -263,24 +271,28 @@ body {
 	border-bottom: 1px solid rgb(190, 178, 178);
 }
 
+.portfolio-item-app {
+	padding: 32px 16px;
+	border: 1px solid #e7e9fc;
+	border-top: none;
+}
+
 .portfolio-title {
-	padding: 32px 32px 8px 16px;
+	margin-bottom: 8px;
 }
 
 .portfolio-text {
-	padding: 0 32px 32px 16px;
 }
 
 /*------------------FOOTER */
 
 .footer {
 	background-color: #2e2f42;
-	padding-bottom: 100px;
+	padding: 100px 0;
 }
 
 .footer-logo {
-	display: block;
-	padding-top: 100px;
+	display: inline-block;
 	padding-bottom: 16px;
 }
 
