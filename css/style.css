@@ -280,7 +280,8 @@ body {
 
 .footer-logo {
 	display: block;
-	padding: 100px 100px 16px 156px;
+	padding-top: 100px;
+	padding-bottom: 16px;
 }
 
 .footer-logo .logo-part {
@@ -292,5 +293,4 @@ body {
 	letter-spacing: 0.02em;
 	color: #f4f4fd;
 	max-width: 264px;
-	margin-left: 156px;
 }
