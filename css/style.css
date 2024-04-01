@@ -127,15 +127,16 @@ body {
 .header-menu {
 	display: flex;
 	gap: 40px;
-	padding: 24px 0;
 }
 
 .header-menu-link {
+	display: block;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	color: #2e2f42;
+	padding: 24px 0;
 }
 
 .header-menu-link:hover,
@@ -147,14 +148,15 @@ body {
 	display: flex;
 	align-items: center;
 	gap: 40px;
-	padding: 24px 0;
 }
 
 .header-contact-link {
+	display: block;
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	color: #434455;
+	padding: 24px 0;
 }
 
 .header-contact-link:hover,
